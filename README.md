@@ -55,4 +55,4 @@ Extension installs and sign-in were straightforward. The useful friction was mos
 
 ## Repository
 
-Public repo: *(replace with your GitHub URL after push, e.g. `https://github.com/yourusername/junior-growth-marketing-specialist`)*
+Public repo: [github.com/saikrishna2-creator/junior-growth-marketing-specialist](https://github.com/saikrishna2-creator/junior-growth-marketing-specialist)
