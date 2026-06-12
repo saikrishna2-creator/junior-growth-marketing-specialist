@@ -1,58 +1,99 @@
-# Development Environment Setup
+# Junior Growth Marketing Specialist — Portfolio Project
 
-**Sai** · Step 1 · [100Hires](https://100hires.com) portfolio process
-
-This repository documents the toolchain setup Alex outlined in the application email: what I installed, what I did, and what slowed me down.
-
----
-
-## Tools Installed
-
-| Tool | Type | Notes |
-|------|------|--------|
-| [Cursor](https://cursor.com/) | IDE | Primary editor for this project |
-| Claude Code | Cursor extension | Installed from Extensions, signed in |
-| Codex | Cursor extension | Installed from Extensions, signed in |
-| GitHub | Git hosting | Public repository for this README |
-
-I have used **VS Code**, **Lovable**, and **Antigravity** on other projects (including a [personal portfolio](https://myjobportfolio.lovable.app) deployed on Lovable). For this step, the required stack was Cursor, the two extensions, and GitHub.
+**Sai** · [100Hires](https://100hires.com) portfolio process  
+**Repository:** [github.com/saikrishna2-creator/junior-growth-marketing-specialist](https://github.com/saikrishna2-creator/junior-growth-marketing-specialist)
 
 ---
 
-## Steps Completed
+## Step 1 — Environment setup ✓
 
-1. Installed **Cursor** from [cursor.com](https://cursor.com/).
-2. Installed the **Claude Code** extension (`Extensions` → search “Claude Code”) and signed in.
-3. Installed the **Codex** extension (`Extensions` → search “Codex”) and signed in.
-4. Created a **public GitHub repository** and cloned/opened it locally.
-5. Opened the repository **in Cursor** as the working folder.
-6. Created this **README.md** with tools, steps, and issues (this file).
-7. **Committed and pushed** this README to the `main` branch on GitHub.
+See commit history for the original setup README (Cursor, Claude Code, Codex, GitHub).
 
 ---
 
-## Issues I Ran Into (and How I Solved Them)
+## Step 2 — Research project
 
-### Switching from browser-based builders to a repo-based workflow
+**Topic chosen:** [AI-powered SEO content production](#why-this-topic)
 
-Most of my earlier work went through **Lovable** (build in the browser, publish from there). Cursor expects a local folder tied to Git, which is a different habit: save files locally, commit, push.
+### Why this topic
 
-I looked up a short guide on creating and cloning a GitHub repo, then opened that folder in Cursor. Once the repo was the project root, the rest of the steps followed the email checklist without extra tooling.
+Of the eight options, this one best matches the role and this assignment:
 
-### Two AI extensions in one editor
+- The job is **daily AI-assisted content** with fact-checking and judgment—not volume for its own sake.
+- B2B SaaS (100Hires) lives on **comparison pages, blogs, landing pages, and email**—all overlap with modern SEO/content.
+- Strong **YouTube + LinkedIn** practitioner ecosystem → fits the API + manual collection workflow.
+- Lets me show **technical execution** (transcript script) and **taste** (who is worth listening to).
 
-Claude Code and Codex each need their own install and login. Nothing was broken—I just made sure both showed as enabled under Extensions before moving on, so I was not halfway through a later step and wondering why an assistant was missing.
+I did not pick cold outreach or LinkedIn strategy alone—they are narrower. AI SEO sits at the intersection of content, data, and tools, which is where I want to work.
 
-### Remembering the Git push at the end
+### What I collected
 
-It is easy to treat “write the README” as the finish line. The email also asks for commit and push. I staged `README.md`, committed with a clear message, and verified the file on GitHub in the browser before replying to the email.
+| Asset | Location |
+|-------|----------|
+| 10 experts + annotations | [`research/sources.md`](research/sources.md) |
+| LinkedIn posts (manual) | [`research/linkedin-posts/`](research/linkedin-posts/) |
+| YouTube transcripts (API) | [`research/youtube-transcripts/`](research/youtube-transcripts/) |
+| Supporting articles | [`research/other/`](research/other/) |
+| Transcript fetch script | [`scripts/fetch_transcripts.py`](scripts/fetch_transcripts.py) |
 
-### Steps that were already familiar
+### Experts — why these 10
 
-Extension installs and sign-in were straightforward. The useful friction was mostly workflow-related (repo + push), not the AI tools themselves. When something was unclear, I searched for a tutorial rather than waiting—that is how I handled Git steps I had not used recently.
+I optimized for **operators and researchers**, not the first Google result for "AI SEO tips."
+
+| Expert | One-line reason |
+|--------|-----------------|
+| Kevin Indig | Original AI Overview / clickstream research; advised Shopify, Ramp |
+| Ryan Law | Ahrefs citation studies; B2B content lead |
+| Lily Ray | Algorithm + AEO recovery; calls out GEO spam |
+| Michal Suski | Built Surfer; teaches production AI content workflows |
+| Patrick Stox | Ahrefs AI search / Brand Radar research |
+| Eli Schwartz | Product-led SEO for B2B (Zendesk, Gusto, WordPress) |
+| Aleyda Solis | AI prompt frameworks + client-side SEO tests |
+| Kyle Roof | 400+ SEO experiments; "bad SEO faster" warning |
+| Sam Oh | Hands-on AI + snippet experiments at Ahrefs |
+| Britney Muller | ML + SEO; human-in-the-loop AI education |
+
+Full links, dates, and notes: [`research/sources.md`](research/sources.md).
+
+### How I collected it
+
+1. **YouTube transcripts** — Python script using `youtube-transcript-api` (free, no API key). One markdown file per video under `/research/youtube-transcripts/{author}/`.
+2. **LinkedIn** — Manual copy from public posts (LinkedIn blocks reliable scraping). Organized by author in `/research/linkedin-posts/`.
+3. **Other** — Blog posts and webinar recaps that add context for a future playbook.
+
+Run the transcript fetch locally:
+
+```bash
+pip install -r requirements.txt
+python scripts/fetch_transcripts.py
+```
+
+### Early themes (playbook-ready)
+
+1. AI drafts are raw material—edit, verify, add information gain (Law, Muller, Roof).
+2. Freshness and third-party mentions matter for AI citations (Law, Indig).
+3. YouTube + transcripts are both input to LLMs and output in AI answers (Stox, Ray, Law).
+4. Mid-funnel / product-led content wins as LLMs absorb top-of-funnel (Schwartz).
+5. Workflows (templates, QA, dual optimization) beat one-shot prompts (Suski, Solis).
 
 ---
 
-## Repository
+## Repository structure
 
-Public repo: [github.com/saikrishna2-creator/junior-growth-marketing-specialist](https://github.com/saikrishna2-creator/junior-growth-marketing-specialist)
+```
+research/
+  sources.md
+  linkedin-posts/     # one file per expert
+  youtube-transcripts/
+  other/
+scripts/
+  fetch_transcripts.py
+requirements.txt
+README.md
+```
+
+---
+
+## Links
+
+- Portfolio: [myjobportfolio.lovable.app](https://myjobportfolio.lovable.app)
