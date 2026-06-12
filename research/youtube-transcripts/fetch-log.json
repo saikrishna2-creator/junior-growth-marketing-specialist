@@ -1,52 +1,62 @@
 [
   {
     "video_id": "jQXvbeYF5go",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=jQXvbeYF5go (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A67537F770>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\kevin-indig\\kevin-indig-google-will-kill-your-traffic.md",
+    "segments": 1704
   },
   {
     "video_id": "mL1W1SMtTT4",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=mL1W1SMtTT4 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675CE6FD0>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\ryan-law\\ryan-law-how-to-win-in-ai-search.md",
+    "segments": 1177
   },
   {
     "video_id": "z0LOeXXFB8U",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=z0LOeXXFB8U (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675CE7D90>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\lily-ray\\lily-ray-future-of-seo.md",
+    "segments": 41
   },
   {
     "video_id": "HsAIXxvSzfQ",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=HsAIXxvSzfQ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675C4C2D0>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\michal-suski\\michal-suski-optimize-content-with-surfer.md",
+    "segments": 1296
   },
   {
     "video_id": "RwKKLnyXCig",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=RwKKLnyXCig (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675C4C7D0>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\patrick-stox\\patrick-stox-ai-search-strategy-geo.md",
+    "segments": 280
   },
   {
     "video_id": "Z71yGshPTwk",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=Z71yGshPTwk (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A672FE5310>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\eli-schwartz\\eli-schwartz-rethinking-seo-age-of-ai.md",
+    "segments": 3234
   },
   {
     "video_id": "WZL6mb3r2u4",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=WZL6mb3r2u4 (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675CE74D0>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\aleyda-solis\\aleyda-solis-ai-prompts-for-seo.md",
+    "segments": 909
   },
   {
     "video_id": "1RggBJ4Fu9Y",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=1RggBJ4Fu9Y (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675CE7890>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\kyle-roof\\kyle-roof-2024-2025-seo-strategy.md",
+    "segments": 1002
   },
   {
     "video_id": "dHW-izBq2-I",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=dHW-izBq2-I (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675CE7C50>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\sam-oh\\sam-oh-chatgpt-rank-google.md",
+    "segments": 235
   },
   {
     "video_id": "i9oShrzRzNA",
-    "status": "error",
-    "message": "HTTPSConnectionPool(host='www.youtube.com', port=443): Max retries exceeded with url: /watch?v=i9oShrzRzNA (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x000002A675CE6710>: Failed to resolve 'www.youtube.com' ([Errno 11001] getaddrinfo failed)\"))"
+    "status": "ok",
+    "path": "research\\youtube-transcripts\\britney-muller\\britney-muller-actionable-ai-for-marketers.md",
+    "segments": 1785
   }
 ]
